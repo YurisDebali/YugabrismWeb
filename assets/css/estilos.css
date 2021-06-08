@@ -1,342 +1,217 @@
-
-/* /* /* /* TODO LO QUE ES COLORES Y FONDOS ESTÁ EN TRABAJO AÚN*/
-header{
-    
-    top: 0;
-    z-index: 1000;
-    color: rgb(248, 247, 245); 
-  
-}
-
-
-/* formato raíz de la página */
-body {
-    font-family: 'EB Garamond', serif;
-    font-weight: normal;
-    text-align:justify ;
-    margin-left: 40px ;
-    margin-right: 40px ;
-    
-}
-
-
-
-.letraCuerpos{ /* ¡color, fuente y tamaño en obras!*/
-    font-size: 2rem;
-    color: rgb(233, 233, 233);
-    /*background-color: rgba(231, 226, 226, 0.747);*/
-    
-}
-
-.secciones {
-
-    height: 300;
-    background-color: rgba(14, 1, 1, 0.329);
-    color: rgb(54, 29, 29);
-    font-size: 1.5rem;
-    
-}
-
-
-.tituloSeccion {
-    color: rgb(0, 20, 16);
-    font-size: 6rem;
-    display: inline-block;
-    margin: 100px 650px;
-    font-family:Georgia, 'Times New Roman', Times, serif
-    
-}
+@charset "UTF-8";
+header {
+  top: 0;
+  z-index: 1000;
+  color: #f8f7f5; }
 
 /*TRONCO COMUN */
-
-
 #fondoInicio {
-    background: url(../css/fondoInicio.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+  background: url(../css/fondoInicio.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 #fondoComun {
-    
-    background: url(../css/fondoComun.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-        
-}
+  background: url(../css/fondoComun.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
-#logo img{
-    
-    transition: all 1s ;
-}
+#logo img {
+  transition: all 1s; }
 
-#logo img:hover{
-    height: 75px;
-    width: 400px;
-    background-color: #ffffff;
-    background-image: linear-gradient(315deg, #357ba37c 20%, #c9cccb 74%);
-    border-radius: 35px;
+#logo img:hover {
+  height: 75px;
+  width: 400px;
+  background-color: #ffffff;
+  background-image: linear-gradient(315deg, #357ba37c 20%, #c9cccb 74%);
+  border-radius: 35px; }
 
-   
-}
-
-.color {
-    background-color: rgba(19, 18, 18, 0.637);
-    border-radius: 8px;
-   
-}
-
-
-
-/******PAGINA DE INICIO **********/
- 
+/*PAGINA DE INICIO*/
 .inicio {
-    display: flex; 
-   margin-top: 400px;  
-    
-}
+  display: flex;
+  margin-top: 400px; }
 
-
-.intro {  
-
-    animation-name: intro;
-    animation-iteration-count: 1;
-    animation-timing-function:cubic-bezier(0.47, 0, 0.745, 0.715);
-    animation-duration: 5s;
-    text-align: center;
-   justify-items: center;
-  
-  
-}
-
-
-
-
- #letraUno{
-    
-    animation-name: intro;
-    animation-fill-mode:both ;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-duration: 5s;
-    animation-delay: 0s;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 3.5rem;
-    color: #c2d4c9;
-   
-
-}
-
-.cuerpo h5 {
-    
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
- 
-    color: #c2d4c9;
-    
-
-}
-.tituloWeb  h1{
-    
-    color: rgb(167, 177, 170);
-    font-size: 4.5rem;
- 
-       
-}
-
+.intro {
+  animation-name: intro;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+  animation-duration: 5s;
+  text-align: center;
+  justify-items: center; }
 
 /* SECCION CUENTOS*/
-
-
-.fondoCuento{
-    background-color: #44354167;
-background-image: linear-gradient(315deg, #fcfdfd6e 24%, #b7cec47c 74%);
-    border-radius: 40px;
-
-}
-
+.fondoCuento {
+  background-color: #44354167;
+  background-image: linear-gradient(315deg, #fcfdfd6e 24%, #b7cec47c 74%);
+  border-radius: 40px; }
 
 .seccionCuentos {
-
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-   align-items: center;
-    
-}
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center; }
 
 .seccionCuentos div {
-   
-    margin: 50px;
-    padding: 80px;
-    
-
-}
-
-.letraCuentos {
-    font-family: 'EB Garamond', serif;
-    font-weight: normal;
-    font-size: 1.5rem;
-
-}
-
-.tituloCuentos {
-    text-align: center;
-    font-size: 4.5rem;
-    color: rgb(47, 65, 61);
-    font-family:Georgia, 'Times New Roman', Times, serif
-     
-   
-}
+  margin: 50px;
+  padding: 80px; }
 
 /* ******Sección Poesías ****** */
-
 .poesias {
-
-    display: flex;
-    padding: 30px;
-    background-image: linear-gradient(315deg, #2dffff44 24%, #b7cec444 74%);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1rem;
-    border-radius: 30px;
-    margin: 60px;
-    margin-top: 200px; 
-
-}
+  display: flex;
+  padding: 30px;
+  background-image: linear-gradient(315deg, #2dffff44 24%, #b7cec444 74%);
+  border-radius: 30px;
+  margin: 60px;
+  margin-top: 200px; }
 
 .row {
-    text-align: center;
-}
-
+  text-align: center; }
 
 /******* Sección Dramaturgia *****/
-
-.letraDrama {
-
-    font-size: 1.5rem;
-    text-align:right;
-}
-
-.dramaturgia{
-    margin-top: 200px;
-}
+.dramaturgia {
+  margin-top: 200px; }
 
 #obraCalderon {
-    background-color: blanchedalmond; 
-    padding: 75px;
-    margin: 200px;   
-    border: solid 1px rgba(12, 12, 11, 0.616);
-
-}
-
+  background-color: blanchedalmond;
+  padding: 75px;
+  margin: 200px;
+  border: solid 1px rgba(12, 12, 11, 0.616); }
 
 #obraLorca {
-    background-color: blanchedalmond;  
-    padding: 75px;
-    margin: 800px;
-    border: solid 1px black;
-
-}
-
+  background-color: blanchedalmond;
+  padding: 75px;
+  margin: 800px;
+  border: solid 1px black; }
 
 /************ Sección Libros **********/
-
-.fuegoReflejo .letraLibros p {
-
-    font-family: 'EB Garamond', serif;
-    font-weight: normal;
-    font-size: 2rem;
-    background-color: rgba(202, 202, 202, 0.418);
-}
-
-.bosque .letraLibros p {
-
-    font-family: 'EB Garamond', serif;
-    font-weight: normal;
-    font-size: 2rem;
-    background-color: rgba(202, 202, 202, 0.418);
-}
-
 #botonDescarga {
-    grid-area: boton;  
-    height: 150px;
-
-}
-
+  grid-area: boton;
+  height: 150px; }
 
 /****************** Sección Artículos *************/
-
 .articulos div div {
-
-    background-image: linear-gradient(315deg, #2dffff44 24%, #99b8ab57 74%);
-   
-    padding: 10px;
-    margin-top: 250px;  
-    border-radius: 10px;
-       
-}
-
-.letraCuerpo  {
-    font-size: 1.5rem;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-
+  padding: 10px;
+  margin-top: 250px;
+  border-radius: 10px; }
 
 /* Podcast sección*/
-
 .podcast {
-
-    margin-top: 400px;
-    
-    
-}
+  margin-top: 400px; }
 
 iframe {
-    width: 100000px;
-    height: 250px;    
-    
+  width: 100000px;
+  height: 250px; }
 
-}
+.tituloPodcas {
+  font-size: 4rem;
+  text-align: center;
+  color: #2f413d;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
 
-.tituloPodcas{
-    font-size: 4rem;
-    text-align: center;
-    
-    color: rgb(47, 65, 61);
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
+.letraPod {
+  font-size: 1.5rem;
+  color: #070808;
+  background-color: rgba(247, 244, 244, 0.89);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif; }
 
-.letraPod{
-    font-size: 1.5rem;
-    color: #070808;
-    background-color: rgba(247, 244, 244, 0.89);
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+#venganza {
+  background-image: url(../css/lavenganzaseraterrible.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
+#elNadie {
+  background-image: url(../css/nadie-sabe-nada.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
-}
+#curios {
+  background-image: url(../css/curiosidades.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
-#venganza{
-    background-image: url(../css/lavenganzaseraterrible.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
+/*FUENTES EN COMUN*/
+body {
+  font: 1.5rem "EB Garamond, serif";
+  text-align: justify;
+  margin-left: 40px;
+  margin-right: 40px; }
 
-#elNadie{
-    background-image: url(../css/nadie-sabe-nada.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+.letraCuerpos {
+  font: 1.5rem "EB Garamond, serif"; }
 
-#curios{
-    background-image: url(../css/curiosidades.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
+.secciones {
+  height: 300;
+  background-color: rgba(14, 1, 1, 0.329);
+  color: #361d1d;
+  font: 1.5rem "EB Garamond, serif"; }
 
+.tituloSeccion {
+  color: #001410;
+  font-size: 6rem;
+  display: inline-block;
+  margin: 100px 650px;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.color {
+  background-color: rgba(19, 18, 18, 0.637);
+  border-radius: 8px; }
+
+/*Inicio Web*/
+#letraUno {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 5rem;
+  color: #c2d4c9; }
+
+.cuerpo h5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: #c2d4c9; }
+
+.tituloWeb h1 {
+  color: #a7b1aa;
+  font: 6.5rem "Times New Roman", Times, serif; }
+
+/*letra de Secciones*/
+/*SECCION CUENTOS*/
+.letraCuentos {
+  font: 1.5rem "EB Garamond, serif"; }
+
+.tituloCuentos {
+  text-align: center;
+  font: 6.5rem "Times New Roman", Times, serif;
+  color: #2f413d; }
+
+/*SECCION POESIAS*/
+.poesias {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem; }
+
+/*SECCION DRAMATURGIA*/
+.letraDrama {
+  font: 1.5rem "EB Garamond, serif";
+  text-align: right; }
+
+/*SECCION LIBROS*/
+.fuegoReflejo .letraLibros p {
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  font-size: 2rem;
+  background-color: rgba(202, 202, 202, 0.418); }
+
+.bosque .letraLibros p {
+  font-family: 'EB Garamond', serif;
+  font-weight: normal;
+  font-size: 2rem;
+  background-color: rgba(202, 202, 202, 0.418); }
+
+/*SECCION ARTICULOS*/
+.letraCuerpo {
+  font: 1.5rem "EB Garamond, serif"; }
+
+.articulos div div {
+  background-image: linear-gradient(315deg, #2dffff44 24%, #99b8ab57 74%); }

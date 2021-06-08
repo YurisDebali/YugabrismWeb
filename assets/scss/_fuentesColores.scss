@@ -1,0 +1,138 @@
+$letra-principal: 1.5rem 'EB Garamond, serif';
+$letra-titulos: 6.5rem 'Times New Roman', Times, serif;
+
+
+
+
+
+
+
+
+/*FUENTES EN COMUN*/ 
+body {
+    font: $letra-principal; 
+    text-align:justify ;
+    margin-left: 40px ;
+    margin-right: 40px ;
+    
+}
+
+
+
+.letraCuerpos{ 
+    font: $letra-principal
+    
+}
+
+.secciones {
+
+    height: 300;
+    background-color: rgba(14, 1, 1, 0.329);
+    color: rgb(54, 29, 29);
+    font:$letra-principal;
+    
+}
+
+
+.tituloSeccion {
+    color: rgb(0, 20, 16);
+    font-size: 6rem;
+    display: inline-block;
+    margin: 100px 650px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.color {
+    background-color: rgba(19, 18, 18, 0.637);
+    border-radius: 8px;
+   
+}
+
+/*Inicio Web*/
+
+#letraUno{
+ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5rem;
+    color: #c2d4c9;
+   
+
+}
+
+.cuerpo h5 {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #c2d4c9;
+    
+}
+
+.tituloWeb  h1{
+    
+    color: rgb(167, 177, 170);
+    font: $letra-titulos;
+}
+
+
+/*letra de Secciones*/
+
+/*SECCION CUENTOS*/
+
+.letraCuentos {
+    font: $letra-principal
+
+}
+
+.tituloCuentos {
+    text-align: center;
+    font: $letra-titulos;
+    color: rgb(47, 65, 61);
+    
+}
+
+
+/*SECCION POESIAS*/
+
+.poesias {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+
+}
+
+/*SECCION DRAMATURGIA*/
+
+.letraDrama {
+    font: $letra-principal;
+    text-align:right;
+}
+
+
+/*SECCION LIBROS*/
+
+.fuegoReflejo .letraLibros p {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 2rem;
+    background-color: rgba(202, 202, 202, 0.418);
+}
+
+.bosque .letraLibros p {
+
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    font-size: 2rem;
+    background-color: rgba(202, 202, 202, 0.418);
+}
+
+/*SECCION ARTICULOS*/
+
+.letraCuerpo  {
+    font: $letra-principal;
+}
+
+.articulos div div {
+
+    background-image: linear-gradient(315deg, #2dffff44 24%, #99b8ab57 74%);
+}
